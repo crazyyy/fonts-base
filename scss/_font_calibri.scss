@@ -1,0 +1,62 @@
+$ca-font-path:        "../fonts" !default;
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-light.eot');
+    src: url('#{$ca-font-path}/calibri-light.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-light.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-light.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-light.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-light-italic.eot');
+    src: url('#{$ca-font-path}/calibri-light-italic.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-light-italic.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-light-italic.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-light-italic.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-regular.eot');
+    src: url('#{$ca-font-path}/calibri-regular.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-regular.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-regular.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-regular.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-regular-italic.eot');
+    src: url('#{$ca-font-path}/calibri-regular-italic.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-regular-italic.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-regular-italic.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-regular-italic.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-bold.eot');
+    src: url('#{$ca-font-path}/calibri-bold.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-bold.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-bold.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-bold.svg#open_sansbold') format('svg');
+   	font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('#{$ca-font-path}/calibri-bold-italic.eot');
+    src: url('#{$ca-font-path}/calibri-bold-italic.eot?#iefix') format('embedded-opentype'),
+         url('#{$ca-font-path}/calibri-bold-italic.woff') format('woff'),
+         url('#{$ca-font-path}/calibri-bold-italic.ttf') format('truetype'),
+         url('#{$ca-font-path}/calibri-bold-italic.svg#open_sanssemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}

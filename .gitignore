@@ -1,0 +1,9 @@
+*.log
+thumbs.db
+*.sublime-project
+*.sublime-workspace
+.sass-cache
+.sublime-gulp.cache
+/.hg
+node_modules
+npm-debug.log
